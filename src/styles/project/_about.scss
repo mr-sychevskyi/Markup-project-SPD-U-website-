@@ -1,0 +1,28 @@
+.about__inner {
+	.about__subtitle { margin-bottom: 25px; }
+
+	.about__info { 
+		margin-top: 40px; 
+		max-width: 768px;
+	}
+	
+	.about__courses { margin-top: 40px; }
+}
+	
+.about-block { 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+		
+	&__item { flex-basis: 50%; }
+	
+	&__title {
+		color: #1674D1;
+		text-transform: uppercase;
+	}	
+	
+	.about-logo {
+		max-width: 75%;
+		margin: 0 auto;
+	}
+}

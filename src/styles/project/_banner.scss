@@ -1,0 +1,29 @@
+.banner {
+	padding: 100px 0 80px;
+	text-align: center;
+	
+   background: url("../images/block-info.jpg") no-repeat center;
+	background-size: cover;
+	
+	&__logo {
+		margin: 0 auto;
+		max-width: 75%;
+	}
+	
+	&__title {
+		margin-top: 25px;
+		
+		font-size: 1.4rem;
+		font-weight: 500;
+		letter-spacing: 2px;
+	}
+	
+	&__description {
+		margin: 0 auto;
+		margin-top: 30px;
+		max-width: 650px;
+		
+		font-size: .9rem;
+		line-height: 24px; 
+	}
+}

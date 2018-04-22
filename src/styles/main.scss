@@ -1,0 +1,41 @@
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+@import 
+	'foundation/reset',
+	'foundation/typography',
+	'foundation/common';
+
+@import 
+	'base/buttons',
+	'base/main-navigation', 
+	'base/section-block',
+	'base/content-group', 
+	'base/courses-list', 
+	'base/courses-card',
+	'base/steps-list', 
+	'base/polygon', 
+	'base/person', 
+	'base/details-group', 
+	'base/social-group',
+	'base/modal'; 
+
+@import 
+	'project/navbar',
+	'project/banner',
+	'project/about',
+	'project/courses-directions',
+	'project/courses-details',
+	'project/courses-requirements',
+	'project/team',
+	'project/faq',
+	'project/partners',
+	'project/contacts',
+	'project/footer';
+
+@import 
+	'cosmetic/cosmetic';
+ 
+@import 
+	'base/media';

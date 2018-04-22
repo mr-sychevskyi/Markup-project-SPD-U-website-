@@ -1,0 +1,53 @@
+.details {
+	color: #333;
+	text-align: left;
+	cursor: pointer;
+	transition: all .5s;
+	
+	&:not(:first-child) { margin-top: 35px; }
+	
+	&__summary::-webkit-details-marker { display: none; }
+	
+	&__summary { color: rgb(22, 116, 209); }
+	
+	&__summary:before {
+		content: "❯"; 
+		
+    	display: inline-block;
+    	margin-right: 10px;
+
+		color: #1674D1;
+		font-weight: 700;
+	}
+
+	&[open] summary:before { transform: rotate(90deg); }
+	
+	
+	&__content {
+		margin-left: 25px;
+		margin-top: 15px;
+		
+		font-family: "Helvetica Regular";
+  		font-size: .9rem;
+		color: rgb(117, 117, 117);
+	}
+	
+	&__content li {
+		list-style: decimal;
+		
+		color: rgb(117, 117, 117);
+  		font-size: 14px;
+		font-family: "Helvetica Regular";
+		line-height: 1.4;
+		
+		margin: 20px 0;
+		margin-left: 15px;
+	}
+	
+	&__content:not([open]),
+	&__content:not([open]) li {
+		animation-name: growFontSize;
+  		animation-duration: 250ms;
+  		animation-delay: 0ms;
+	}
+}

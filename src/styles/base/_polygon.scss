@@ -1,0 +1,24 @@
+.polygon { position: absolute; }
+
+.polygon-lg { max-width: 13%; }
+.polygon-sm { max-width: 11%; }
+
+.polygon-tl {
+	top: 5%;
+	left: 0;
+}
+
+.polygon-tr {
+	top: 5%;
+	right: 0;
+}
+
+.polygon-bl {
+	bottom: 5%;
+	left: 0;
+}
+
+.polygon-br {
+	bottom: 5%;
+	right: 0;
+}

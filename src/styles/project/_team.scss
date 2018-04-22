@@ -1,0 +1,15 @@
+.team {
+	padding-bottom: 0;	
+	&__subtitle { margin-bottom: 25px; }	
+}
+
+.team-group {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 35px;
+}
+
+.team-more.collapsed {
+	display: flex !important;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.courses-card {
+	position: relative;
+	display: block;
+	padding: 35px;
+	text-align: center;
+	background-color: rgb(63, 160, 255);
+	
+	&__title {
+		font-size: 1.4rem;
+		text-transform: uppercase;
+	}	
+	
+	&__logo {
+		margin: 40px 0;
+		
+		max-width: 120px;
+		height: 120px;
+	}
+	
+	&__description {
+		font-size: .9rem;
+		line-height: 1.4;
+	}
+	
+	&__button {
+		margin-top: 30px;	
+		width: 100%;
+	}
+}

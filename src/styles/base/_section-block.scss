@@ -1,0 +1,29 @@
+.section-block {
+	position: relative;
+	padding: 75px 0;		
+	
+	text-align: center;
+}
+
+.section-block__title {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	
+	color: #1674D1;
+}
+
+.section-block__title--white { 
+	@extend .section-block__title;
+	color: #fff; 
+}
+
+.section-block__subtitle-primary {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: rgb(50, 50, 50);
+}
+
+.section-block__subtitle-secondary {
+	letter-spacing: 5px;
+	color: rgb(50, 50, 50);
+}

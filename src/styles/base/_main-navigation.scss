@@ -1,0 +1,22 @@
+.main-navigation { 
+	width: 100%;
+	max-height: 0;
+	border-top: 1px solid rgba(225, 225, 225, .2);
+	transition: all .5s linear;
+	overflow-y: hidden;
+
+	&__item { display: block; }
+		
+	&__link {
+		display: block;
+		padding: 20px;
+		padding-left: 15px;
+
+		font-size: .75rem;
+		text-transform: uppercase; 
+	}
+		
+	&__link:hover { color: #1674D1; }
+}
+
+.main-navigation.collapsed {max-height: 100vh;}

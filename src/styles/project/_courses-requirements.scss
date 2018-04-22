@@ -1,0 +1,26 @@
+.courses-requirements {
+	background: linear-gradient(to bottom, #222 0%, #333 100%);
+	
+	.courses-card { padding: 35px 50px; }	
+	.courses-card:last-child { padding-bottom: 50px; }
+}
+
+.requirements {
+	margin-top: 25px;
+	text-align: left;
+		
+	&__item {
+		position: relative;
+		margin-top: 15px;	
+		
+		font-size: .95rem;
+	} 
+		
+	&__item:before {
+		content: "—";
+		position: absolute;
+		left: -20px;
+			
+		color: #eee;
+	} 
+}	

@@ -1,0 +1,23 @@
+{
+  "name": "SPD-University",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mr-sychevskyi"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "imagemin": "5.3.1",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-mozjpeg": "6.0.0",
+    "imagemin-optipng": "^5.2.1",
+    "watch": "^1.0.2"
+  }
+}
