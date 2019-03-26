@@ -1,2 +1,2 @@
-# Demo: [Github Pages](https://mr-sychevskyi.github.io/markup-project-spd-u-website/src/index.html)
+# Demo: [Github Pages](https://mr-sychevskyi.github.io/markup-project-spd-university/src/index.html)
 ##### Technologies: Mobile first, FLexbox, MCSS
